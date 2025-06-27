@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { useTodoStore } from '../store/todo';
+import { useTodoStore } from '../store/ToDo';
 
 const todoStore = useTodoStore();
 const newTodoText = ref('');
